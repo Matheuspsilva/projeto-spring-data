@@ -121,5 +121,12 @@ public class AppSpringDataTest {
 
 	}
 	
+	@Test
+	public void testeDeletePorNome() {
+		
+		interfaceSpringDataUser.deletarPorNome("matheus");
+
+	}
+	
 	
 }
